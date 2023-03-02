@@ -1,2 +1,10 @@
-# twofactorauth.net-core
-Two factor auth with .net core
+
+# Two Factor Authentication .NET
+
+Implementing two factor authentication with .net 
+
+
+## Autores
+
+- [@ThiagoAntonioFerreira](https://github.com/ThiagoAntonioFerreira)
+

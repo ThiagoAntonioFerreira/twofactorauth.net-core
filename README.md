@@ -18,4 +18,6 @@ Go to Tools -> Nuget Package Manager -> Package Manager Console and type this:
 
 ```bash
   dotnet add package Microsoft.EntityFrameworkCore --version 7.0.3
+  
+  dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 7.0.3
 ```

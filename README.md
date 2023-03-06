@@ -21,6 +21,15 @@ Go to Tools -> Nuget Package Manager -> Package Manager Console and type this:
   
   dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 7.0.3
 ```
+
+After I install the packages in my Program.cs I configure my DbContext and Identity.
+
+```c#
+builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+```
+
 ![image](https://user-images.githubusercontent.com/2035948/223128715-f9f6e972-96fd-4c03-82b3-47a1b623f198.png)
 
 ![image](https://user-images.githubusercontent.com/2035948/223128800-b006d4df-23e5-4a53-9ffc-219aea037b63.png)

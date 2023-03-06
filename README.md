@@ -21,3 +21,10 @@ Go to Tools -> Nuget Package Manager -> Package Manager Console and type this:
   
   dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 7.0.3
 ```
+![image](https://user-images.githubusercontent.com/2035948/223128715-f9f6e972-96fd-4c03-82b3-47a1b623f198.png)
+
+![image](https://user-images.githubusercontent.com/2035948/223128800-b006d4df-23e5-4a53-9ffc-219aea037b63.png)
+
+![image](https://user-images.githubusercontent.com/2035948/223128869-e84e6162-c4ef-46fd-af7a-1f59ff54ae24.png)
+
+![image](https://user-images.githubusercontent.com/2035948/223128964-844c5892-0db5-4217-a203-0fb056f2822d.png)

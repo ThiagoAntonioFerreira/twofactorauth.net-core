@@ -12,6 +12,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 
+builder.Services.AddAuthorization(options =>
+    options.AddPolicy("TwoFactorEnabled", x => x.RequireClaim("amr", "mfa")));
+
 builder.Services.AddRazorPages();
 
 var app = builder.Build();

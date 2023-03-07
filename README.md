@@ -1,8 +1,8 @@
 
 # Two Factor Authentication .NET
+I needed to create a POC (Proof of Concept) of how to implement Two Factor Authentication, because we're create a new project that it will need use it. 
 
-Implementing two factor authentication with .net 
-
+Below I'm going to show how to implementing two factor authentication with .net. 
 
 ## Autores
 

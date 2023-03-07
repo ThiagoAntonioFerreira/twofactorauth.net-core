@@ -39,3 +39,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 ![image](https://user-images.githubusercontent.com/2035948/223128869-e84e6162-c4ef-46fd-af7a-1f59ff54ae24.png)
 
 ![image](https://user-images.githubusercontent.com/2035948/223128964-844c5892-0db5-4217-a203-0fb056f2822d.png)
+
+In my test I used another fictional email. After you login, you'll receive another screen where you have to type your code. I'm using Microsoft Authenticado, but you can user Google Authenticator as well.
+
+![image](https://user-images.githubusercontent.com/2035948/223419728-b691be77-b539-4df2-8b27-d004754654bd.png)
+
